@@ -20,6 +20,8 @@ limitations under the License.
 
 # UNC Path
 
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > [Regular expression][regexp] to parse a [UNC][unc] path.
 
 <section class="installation">
@@ -235,6 +237,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/regexp-unc-path.svg
+[npm-url]: https://npmjs.org/package/@stdlib/regexp-unc-path
+
+[test-image]: https://github.com/stdlib-js/regexp-unc-path/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/regexp-unc-path/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-unc-path/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/regexp-unc-path?branch=main
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/regexp-unc-path
+[dependencies-url]: https://david-dm.org/stdlib-js/regexp-unc-path/main
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
