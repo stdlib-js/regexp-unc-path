@@ -208,6 +208,22 @@ bool = RE_UNC_PATH.test( path );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-unc-path`][@stdlib/assert/is-unc-path]: test if a value is a UNC path.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -266,6 +282,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 [unc]: https://msdn.microsoft.com/en-us/library/gg465305.aspx
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-unc-path]: https://github.com/stdlib-js/assert-is-unc-path
+
+<!-- </related-links> -->
 
 </section>
 
