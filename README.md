@@ -224,7 +224,7 @@ bool = RE_UNC_PATH.test( path );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-unc-path`][@stdlib/assert/is-unc-path]</span><span class="delimiter">: </span><span class="description">test if a value is a UNC path.</span>
+-   <span class="package-name">[`@stdlib/assert-is-unc-path`][@stdlib/assert/is-unc-path]</span><span class="delimiter">: </span><span class="description">test if a value is a UNC path.</span>
 
 </section>
 
