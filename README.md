@@ -35,25 +35,30 @@ limitations under the License.
 
 > [Regular expression][regexp] to parse a [UNC][unc] path.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/regexp-unc-path
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import reUncPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-unc-path/tags). For example,
-
-```javascript
-import reUncPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@v0.1.0-esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@esm/index.mjs';
+var reUncPath = require( '@stdlib/regexp-unc-path' );
 ```
 
 #### reUncPath()
@@ -114,13 +119,8 @@ var parts = reUncPath.REGEXP.exec( '\\\\server\\share\\foo\\bar\\baz' )[ 1 ];
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import reUncPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@esm/index.mjs';
+```javascript
+var reUncPath = require( '@stdlib/regexp-unc-path' );
 
 var RE_UNC_PATH = reUncPath();
 var bool;
@@ -221,10 +221,6 @@ bool = RE_UNC_PATH.test( path );
 path = '/foo/../bar';
 bool = RE_UNC_PATH.test( path );
 // returns false
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -254,7 +250,7 @@ bool = RE_UNC_PATH.test( path );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -284,8 +280,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/regexp-unc-path.svg
 [npm-url]: https://npmjs.org/package/@stdlib/regexp-unc-path
 
-[test-image]: https://github.com/stdlib-js/regexp-unc-path/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/regexp-unc-path/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/regexp-unc-path/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/regexp-unc-path/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-unc-path/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/regexp-unc-path?branch=main
@@ -320,7 +316,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-unc-path]: https://github.com/stdlib-js/assert-is-unc-path/tree/esm
+[@stdlib/assert/is-unc-path]: https://github.com/stdlib-js/assert-is-unc-path
 
 <!-- </related-links> -->
 
