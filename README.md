@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reUncPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-unc-path/tags). For example,
+
+```javascript
 import reUncPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@v0.2.2-esm/index.mjs';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@esm/index.mjs';
 ```
 
 #### reUncPath()
@@ -115,7 +120,7 @@ var parts = reUncPath.REGEXP.exec( '\\\\server\\share\\foo\\bar\\baz' )[ 1 ];
 <body>
 <script type="module">
 
-import reUncPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@v0.2.2-esm/index.mjs';
+import reUncPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@esm/index.mjs';
 
 var RE_UNC_PATH = reUncPath();
 var bool;
