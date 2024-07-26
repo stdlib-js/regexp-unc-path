@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reUncPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@esm/index.mjs';
+import reUncPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@esm/index.mjs';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@v0.2.2-esm/index.mjs';
 ```
 
 #### reUncPath()
@@ -115,7 +115,7 @@ var parts = reUncPath.REGEXP.exec( '\\\\server\\share\\foo\\bar\\baz' )[ 1 ];
 <body>
 <script type="module">
 
-import reUncPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@esm/index.mjs';
+import reUncPath from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-unc-path@v0.2.2-esm/index.mjs';
 
 var RE_UNC_PATH = reUncPath();
 var bool;
